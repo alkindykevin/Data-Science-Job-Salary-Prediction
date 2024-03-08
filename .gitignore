@@ -1,0 +1,33 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific files
+.env
+venv/
+env/
+*.log
+
+# Ignore data files (assuming they are stored elsewhere, such as on Kaggle or in a separate data folder)
+data/
+
+# Ignore model files and directories
+models/
+*.h5
+*.pkl
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore any compiled binaries
+*.pyc
+
+# Ignore any generated documentation
+docs/
+
+# Ignore any local configuration files
+*.ini
+*.cfg
